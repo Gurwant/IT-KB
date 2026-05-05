@@ -37,3 +37,8 @@ LLMNR operates strictly on the local subnet (it does not cross routers). When a 
 5.  **The Connection:** The requesting computer receives the IP address and initiates the connection.
 
 *Note on Security:* Because LLMNR does not validate or authenticate the responder, any malicious machine on the network can answer the multicast query, falsely claiming to be the requested server. This makes the protocol highly vulnerable to Man-in-the-Middle (MitM) and credential theft attacks.
+
+---
+## Sources :
+- [IT-Connect](https://www.it-connect.fr/active-directory-comment-et-pourquoi-desactiver-les-llmnr-et-netbios/)
+- [RFC4795](https://datatracker.ietf.org/doc/html/rfc4795)
